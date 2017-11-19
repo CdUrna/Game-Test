@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.game-main {
+    margin: 10px auto;
+    width: 380px;
+    height: 380px;
+    border: 5px solid #333333;
+    background-color: #cccccc;
+    border-radius: 8px;
+    position: relative;
+    padding: 10px;
+}
+
+.grid-row {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.grid-row:last-child {
+    margin-bottom: 0;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #e6e6e6;
+    float: left;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.cell:first-child {
+    margin-left: 0;
+}
+
+.element {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    background-color: #ff751a;
+}
